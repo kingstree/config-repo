@@ -1,2 +1,9 @@
 polar:
   greeting: "Welcome to the catalog from the config server"
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://host.docker.internal:8080/realms/bookshop
